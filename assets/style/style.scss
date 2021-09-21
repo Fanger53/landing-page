@@ -12,16 +12,36 @@
   background: rgba(0, 0, 0, 0.904);
 }
 
+.center {
+  margin: 0 auto;
+}
+
 .bg-img {
   background-repeat: no-repeat !important;
   background-size: cover !important;
   background-position: center !important;
 }
 
-// seccion sobre nosotros
+// Header
 
+.main-header {
+  height: 560px;
+  background-color: #ffde3b;
+}
+
+.header-img {
+  width: 350px;
+  height: 350px;
+  margin-left: 300px;
+}
+
+// seccion sobre nosotros
+.row {
+  width: 95vw;
+}
 .card {
   /* Add shadows to create the "card" effect */
+  height: 20rem;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
 }
@@ -29,5 +49,10 @@
 /* On mouse-over, add a deeper shadow */
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.img-card {
+  width: 6rem;
+  height: 6rem;
 }
 
