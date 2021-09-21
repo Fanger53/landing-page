@@ -5,6 +5,10 @@
   font-family: 'Crete Round', serif;
 }
 
+body {
+  background-color: rgba(218, 227, 235, 0.541);
+}
+
 .gris{
   background: #014fbb;
 }
@@ -26,15 +30,18 @@
 
 .main-header {
   height: 560px;
-  background-color: #ffde3b;
+
 }
 
 .header-img {
-  width: 350px;
-  height: 350px;
+  width: 50vw;
+  height: 560px;
   margin-left: 300px;
 }
 
+.img-h {
+  background-image: url(../img/targeta.jpeg);
+}
 // seccion sobre nosotros
 .row {
   width: 95vw;
@@ -56,3 +63,10 @@
   height: 6rem;
 }
 
+// footer
+
+footer {
+  height: 50px;
+  background-color: rgb(25, 27, 29);
+  color: white;
+}

@@ -5,6 +5,10 @@
   font-family: "Crete Round", serif;
 }
 
+body {
+  background-color: rgba(218, 227, 235, 0.541);
+}
+
 .gris {
   background: #014fbb;
 }
@@ -25,13 +29,16 @@
 
 .main-header {
   height: 560px;
-  background-color: #ffde3b;
 }
 
 .header-img {
-  width: 350px;
-  height: 350px;
+  width: 50vw;
+  height: 560px;
   margin-left: 300px;
+}
+
+.img-h {
+  background-image: url(../img/targeta.jpeg);
 }
 
 .row {
@@ -53,4 +60,10 @@
 .img-card {
   width: 6rem;
   height: 6rem;
+}
+
+footer {
+  height: 50px;
+  background-color: #191b1d;
+  color: white;
 }/*# sourceMappingURL=style.css.map */
