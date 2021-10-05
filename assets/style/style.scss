@@ -10,10 +10,19 @@ body {
 }
 
 .gris{
-  background: #014fbb;
+  background-image: url(../img/natural-wooden-background.jpg);
 }
+
+.nav-link {
+  color: black !important;
+}
+
 .top-nav-collapse {
   background: rgba(0, 0, 0, 0.904);
+}
+
+.top-nav-collapse div a {
+  color: rgba(245, 245, 245, 0.89) !important;
 }
 
 .center {
@@ -42,6 +51,17 @@ body {
 .img-h {
   background-image: url(../img/targeta.jpeg);
 }
+
+// Social Media
+
+.social-media {
+
+}
+
+.social-icon {
+  height: 300px;
+}
+
 // seccion sobre nosotros
 .row {
   width: 95vw;
