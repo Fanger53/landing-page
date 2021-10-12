@@ -35,6 +35,10 @@ body {
   background-position: center !important;
 }
 
+.main-header {
+  height: 560px;
+}
+
 .store-header {
   height: 560px;
   background-color: #db9f8d;
