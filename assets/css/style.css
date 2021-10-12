@@ -35,18 +35,22 @@ body {
   background-position: center !important;
 }
 
-.main-header {
+.store-header {
   height: 560px;
+  background-color: #db9f8d;
 }
 
-.header-img {
-  width: 50vw;
-  height: 560px;
-  margin-left: 300px;
+.header-tittle {
+  width: 600px;
+  height: 400px;
 }
 
 .img-h {
   background-image: url(../img/targeta.jpeg);
+}
+
+.social {
+  background-color: white;
 }
 
 .nav-link {
@@ -55,16 +59,23 @@ body {
 }
 
 .social-media {
-  display: grid;
-  grid-template-columns: 31% 31% 31%;
-  padding: 20px auto;
-  justify-content: space-evenly;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
 }
-@media (max-width: 768px) {
-  .social-media {
-    grid-template-columns: 95%;
-    grid-row: auto;
-  }
+.social-media :hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.btn-facebooks {
+  background-color: #3b5998;
+}
+
+.btn-inst {
+  background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
+}
+
+.btn-whats {
+  background: #00E676;
 }
 
 .border {
@@ -72,10 +83,8 @@ body {
 }
 
 .social-icon {
-  height: 300px;
-  width: 250px;
-  border-color: black !important;
-  margin-left: auto;
+  color: aliceblue !important;
+  font-size: 1.5rem;
 }
 
 .row {
@@ -103,4 +112,41 @@ footer {
   height: 50px;
   background-color: #191b1d;
   color: white;
+  font-size: 1.5rem;
+}
+
+.store {
+  margin-left: auto;
+}
+
+.store-r {
+  margin-right: auto;
+}
+
+.img-size {
+  height: 330px;
+}
+
+.img-store-1 {
+  background-image: url(../img/acc-1.jpeg);
+}
+
+.img-store-2 {
+  background-image: url(../img/acc-2.jpeg);
+}
+
+.img-store-3 {
+  background-image: url(../img/acc-3.jpeg);
+}
+
+.img-store-4 {
+  background-image: url(../img/acc-4.jpeg);
+}
+
+.img-store-5 {
+  background-image: url(../img/acc-5.jpg);
+}
+
+.img-store-6 {
+  background-image: url(../img/acc-6.jpg);
 }/*# sourceMappingURL=style.css.map */
