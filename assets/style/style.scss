@@ -1,0 +1,166 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Crete Round', serif;
+}
+
+body {
+  background-color: rgba(218, 227, 235, 0.541);
+}
+
+.gris{
+  background-image: url(../img/natural-wooden-background.jpg);
+}
+
+.nav-link {
+  color: black !important;
+}
+
+.top-nav-collapse {
+  background: rgba(0, 0, 0, 0.904);
+}
+
+.top-nav-collapse div a {
+  color: rgba(245, 245, 245, 0.89) !important;
+}
+
+.center {
+  margin: 0 auto !important;
+}
+
+.bg-img {
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+// Header
+
+.main-header {
+  
+}
+
+.store-header {
+  height: 560px;
+  background-color: #db9f8d;
+}
+
+.header-tittle {
+  width: 600px;
+  height: 400px;
+}
+
+.img-h {
+  background-image: url(../img/targeta.jpeg);
+}
+
+
+// Social Media
+
+.social {
+  background-color: white;
+}
+
+.nav-link {
+  width: 100%;
+  text-align: center;
+}
+
+.social-media {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  :hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+}
+
+.btn-facebooks {
+  background-color: #3b5998;
+}
+
+.btn-inst {
+  background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf)
+}
+
+.btn-whats {
+  background: #00E676;
+}
+
+.border {
+  border: 1px solid black !important;
+}
+
+.social-icon {
+  color: aliceblue !important;
+  font-size: 1.5rem;
+}
+
+// seccion sobre nosotros
+.row {
+  width: 95vw;
+}
+.card {
+  /* Add shadows to create the "card" effect */
+  height: 20rem;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.img-card {
+  width: 6rem;
+  height: 6rem;
+}
+
+// footer
+
+footer {
+  height: 50px;
+  background-color: rgb(25, 27, 29);
+  color: white;
+  font-size: 1.5rem;
+}
+
+
+// Store
+
+.store {
+  margin-left: auto;
+}
+
+.store-r {
+  margin-right: auto;
+}
+
+.img-size {
+  height: 330px;
+}
+
+.img-store-1 {
+  background-image: url(../img/acc-1.jpeg);
+}
+
+.img-store-2 {
+  background-image: url(../img/acc-2.jpeg);
+}
+
+.img-store-3 {
+  background-image: url(../img/acc-3.jpeg);
+}
+
+.img-store-4 {
+  background-image: url(../img/acc-4.jpeg);
+}
+
+.img-store-5 {
+  background-image: url(../img/acc-5.jpg);
+}
+
+.img-store-6 {
+  background-image: url(../img/acc-6.jpg);
+}
