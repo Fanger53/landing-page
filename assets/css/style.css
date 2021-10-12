@@ -26,7 +26,7 @@ body {
 }
 
 .center {
-  margin: 0 auto;
+  margin: 0 auto !important;
 }
 
 .bg-img {
@@ -49,8 +49,33 @@ body {
   background-image: url(../img/targeta.jpeg);
 }
 
+.nav-link {
+  width: 100%;
+  text-align: center;
+}
+
+.social-media {
+  display: grid;
+  grid-template-columns: 31% 31% 31%;
+  padding: 20px auto;
+  justify-content: space-evenly;
+}
+@media (max-width: 768px) {
+  .social-media {
+    grid-template-columns: 95%;
+    grid-row: auto;
+  }
+}
+
+.border {
+  border: 1px solid black !important;
+}
+
 .social-icon {
   height: 300px;
+  width: 250px;
+  border-color: black !important;
+  margin-left: auto;
 }
 
 .row {
